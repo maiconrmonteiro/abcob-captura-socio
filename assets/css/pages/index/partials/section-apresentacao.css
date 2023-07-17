@@ -225,6 +225,9 @@ section.apresentacao .captura form button .faixa {
   z-index: 1;
   transition: all 0.3s;
 }
+
+
+
 /* Animação que gira a faixa do botão do formulário */
 @keyframes rodandofaixa {
   0% {
