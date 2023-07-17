@@ -15,6 +15,13 @@ section.apresentacao .foto {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.1));
   background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.1));
 }
+
+#aprensetacao-email-enviado {
+  height: 100vh;
+}
+
+
+
 /* Imagem da <div class="foto"> */
 section.apresentacao .foto img {
   width: 100%;

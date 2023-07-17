@@ -59,7 +59,7 @@
 <body>
 
   <!-- Seção -->
-  <section class="apresentacao">
+  <section id="aprensetacao-email-enviado" class="apresentacao">
     <!-- Imagem -->
     <div class="foto">
       <img src="./files/images/ABCOB-logo.png">
@@ -74,54 +74,9 @@
     <div class="captura">
       <!-- Titulo -->
       <div class="titulo">
-        <h2>ABCOB</h2>
-        <p>Quer ser sócio? Preencha essas informações agora que enviaremos os proximos passos!</p>
+        <h2>OBRIGADO!!!</h2>
+        <p>Recebemos o seu e-mail e responderemos o mais rapido possivel.</p>
       </div>
-      <!-- Formulário -->
-      <form action="https://formsubmit.co/contato@abcobsc.com" method="POST">
-        <!-- Campo de nome -->
-        <label>Qual seu nome?</label>
-        <div class="input">
-          <img src="./files/images/icone-usuario.png">
-          <input type="text" autocomplete="name" name="nome" placeholder="Digite aqui...">
-        </div>
-        <!-- Campo de whatsapp -->
-        <label>Qual seu whatsapp?</label>
-        <div class="input">
-          <img src="./files/images/icone-whatsapp.png">
-          <input name="whatsapp" type="tel" autocomplete="phone" placeholder="(00) 00000-0000">
-        </div>
-        <!-- Campo de email -->
-        <label>Qual seu e-mail?</label>
-        <div class="input">
-          <img src="./files/images/icone-email.png">
-          <input name="email" type="email" autocomplete="email" placeholder="email@email.com">
-        </div>
-        <!-- Botão Enviar -->
-        <button type="submit">
-          <div class="texto">
-            <h3>ENVIAR AGORA</h3>
-            <p>Clique aqui para enviar os dados</p>
-          </div>
-          <div class="faixa"></div>
-        </button>
-
-        <!--Configuração, essa parte é do assunto do e-mail-->
-        <input type="hidden" name="_subject" value="Solicitação para se associar - via site">
-
-        <!--Configuração para evitar que os e-mail sejam enviado como spam-->
-        <input type="text" name="_honey" style="display: none;">
-
-        <!--Configuração, desabilitação do caption depois do envio-->
-        <input type="hidden" name="_captcha" value="false">
-
-        <!--Configuração, Enviar copia de e-mail-->
-        <input type="hidden" name="_cc" value="maiconrmonteiro@gmail.com">
-
-        <!--Configuração, desabilitação do caption depois do envio-->
-        <input type="hidden" name="_next" value="https://maiconrmonteiro.github.io/aprensetacao-email-enviado.html">
-
-      </form>
     </div>
   </section>
 
