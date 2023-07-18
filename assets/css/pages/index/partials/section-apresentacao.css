@@ -226,6 +226,10 @@ section.apresentacao .captura form button .faixa {
   transition: all 0.3s;
 }
 
+#foto:hover {
+  cursor: pointer;
+}
+
 
 /* Animação que gira a faixa do botão do formulário */
 @keyframes rodandofaixa {
